@@ -1,60 +1,60 @@
 # SudokuProject
 
-## Spis treści
-- [Opis projektu](#opis-projektu)
-- [Technologie](#technologie)
-- [Instalacja i uruchomienie](#instalacja-i-uruchomienie)
-- [Funkcjonalności](#funkcjonalności)
-- [Przykłady użycia](#przykłady-użycia)
-- [Status projektu](#status-projektu)
-- [Źródła](#źródła)
-- [Autor](#autor)
+## Table of Contents  
+- [Project Description](#project-description)  
+- [Technologies](#technologies)  
+- [Installation and Execution](#installation-and-execution)  
+- [Features](#features)  
+- [Usage Examples](#usage-examples)  
+- [Project Status](#project-status)  
+- [Sources](#sources)  
+- [Author](#author)  
 
-## Opis projektu
+## Project Description  
 
-**SudokuProject** to aplikacja umożliwiająca rozwiązywanie łamigłówek Sudoku. Projekt został stworzony w języku C++ i oferuje funkcje takie jak wczytywanie planszy z pliku oraz automatyczne rozwiązywanie zagadek.
+**SudokuProject** is an application that allows solving Sudoku puzzles. The project is developed in C++ and provides features such as loading a Sudoku board from a file and automatically solving puzzles.  
 
-## Technologie
+## Technologies  
 
-Projekt został zrealizowany z wykorzystaniem następujących technologii:
+This project was built using the following technologies:  
 
-- **C++**: główny język programowania projektu.
-- **Standardowa biblioteka C++**: wykorzystana do obsługi wejścia/wyjścia oraz operacji na danych.
+- **C++**: The main programming language used.  
+- **Standard C++ Library**: Utilized for input/output handling and data operations.  
 
-## Instalacja i uruchomienie
+## Installation and Execution  
 
-Aby uruchomić projekt lokalnie, wykonaj następujące kroki:
+To run the project locally, follow these steps:  
 
-1. **Klonowanie repozytorium**: Sklonuj repozytorium na swój lokalny komputer:
+1. **Clone the repository**: Clone the repository to your local machine:  
    ```bash
    git clone https://github.com/jrozycki2003/SudokuProject.git
-   ```
+   ```  
 
-## Funkcjonalności
+## Features  
 
-- **Wczytywanie planszy**: Możliwość wczytania planszy Sudoku z pliku tekstowego.
-- **Rozwiązywanie**: Automatyczne rozwiązywanie wczytanej łamigłówki.
-- **Walidacja**: Sprawdzanie poprawności wprowadzonych danych.
+- **Board Loading**: Ability to load a Sudoku board from a text file.  
+- **Solving**: Automatic solving of the loaded puzzle.  
+- **Validation**: Checking the correctness of the provided data.  
 
-## Przykłady użycia
+## Usage Examples  
 
-1. **Wczytywanie planszy z pliku**:
-   - Przygotuj plik tekstowy `sudoku_input.txt` z układem łamigłówki.
-   - Uruchom program, a następnie podaj nazwę pliku:
+1. **Loading a Sudoku board from a file**:  
+   - Prepare a text file `sudoku_input.txt` containing the puzzle layout.  
+   - Run the program and provide the file name:  
      ```bash
      ./sudoku_solver sudoku_input.txt
-     ```
-2. **Rozwiązywanie łamigłówki**:
-   - Po wczytaniu planszy program automatycznie przystąpi do jej rozwiązania i wyświetli wynik na ekranie.
+     ```  
+2. **Solving the puzzle**:  
+   - After loading the board, the program will automatically attempt to solve it and display the result on the screen.  
 
-## Status projektu
+## Project Status  
 
-Projekt został zakończony i jest w pełni funkcjonalny.
+The project is complete and fully functional.  
 
-## Źródła
+## Sources  
 
-Projekt inspirowany jest materiałami dostępnymi w sieci oraz literaturą dotyczącą algorytmów rozwiązywania Sudoku.
+This project was inspired by online materials and literature on Sudoku-solving algorithms.  
 
-## Autor
+## Author  
 
-Projekt został stworzony przez [jrozycki2003](https://github.com/jrozycki2003). Jeśli masz pytania lub sugestie, skontaktuj się ze mną poprzez GitHub. 
+This project was created by [jrozycki2003](https://github.com/jrozycki2003). If you have any questions or suggestions, feel free to contact me via GitHub.
